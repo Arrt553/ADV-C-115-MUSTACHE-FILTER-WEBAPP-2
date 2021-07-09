@@ -1,0 +1,52 @@
+#RF{
+    cursor: not-allowed;
+    font-size: 45px;
+    font-family: 'Festive', cursive;
+}
+#RF2{
+    font-size: 25px;
+    font-family: 'Otomanopee One', sans-serif;  
+}
+#RF2:hover{
+    cursor: not-allowed;
+    font-size: 40px; 
+    font-family: 'Qahiri', sans-serif;
+    border: 8px double rgb(0, 4, 255);
+    animation-name: example3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.hover{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.hover:hover{
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #03fcf4;
+    color: #ffffff;
+    font-family: 'Otomanopee One', sans-serif;  
+}
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow: 5px 5px 20px #fff700;}
+    to{box-shadow: 5px 5px 35px #00ff66;}
+}
+@keyframes example2{
+    from{box-shadow: 5px 5px 20px #ff0000;}
+    to{box-shadow: 5px 5px 35px #00ffaa;}
+}
+@keyframes example3{
+    from{box-shadow: 5px 5px 20px #00f7ff;}
+    to{box-shadow: 5px 5px 35px #e100ff;}
+}
+#RF:hover{
+    font-size: 55px;
+    border: 8px double rgb(0, 4, 255);
+    animation-name: example2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
